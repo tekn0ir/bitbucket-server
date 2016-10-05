@@ -18,4 +18,4 @@ This repository contains **Dockerfile** of Bitbucket
 
 ### Usage
 
-    docker run -d -p 0.0.0.0:6720:6720 tekn0ir/bitbucket-server
+    docker run -d -p 0.0.0.0:7990:7990 -p 0.0.0.0:7999:7999 tekn0ir/bitbucket-server
