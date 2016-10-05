@@ -1,7 +1,7 @@
-## EIBD Dockerfile
+## Bitbucket Server Dockerfile
 
 
-This repository contains **Dockerfile** of EIBD
+This repository contains **Dockerfile** of Bitbucket
 
 ### Base Docker Image
 
@@ -12,10 +12,10 @@ This repository contains **Dockerfile** of EIBD
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download: `docker pull tekn0ir/eibd`
+2. Download: `docker pull tekn0ir/bitbucket-server`
 
-   (alternatively, you can build an image from Dockerfile: `docker build -t="tekn0ir/eibd" github.com/tekn0ir/eibd`)
+   (alternatively, you can build an image from Dockerfile: `docker build -t="tekn0ir/bitbucket-server" github.com/tekn0ir/bitbucket-server`)
 
 ### Usage
 
-    docker run -d -p 0.0.0.0:6720:6720 tekn0ir/eibd
+    docker run -d -p 0.0.0.0:6720:6720 tekn0ir/bitbucket-server
