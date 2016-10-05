@@ -5,7 +5,7 @@ This repository contains **Dockerfile** of Bitbucket
 
 ### Base Docker Image
 
-* [debian](https://hub.docker.com/_/debian/)
+* [ubuntu](https://hub.docker.com/_/ubuntu/)
 
 
 ### Installation
